@@ -1,0 +1,29 @@
+/* Custom Stylesheet for BP Banking Website [Index Page]*/
+/* By Fernando Barroso                      */
+
+.mainSlider {
+    display: block;
+    height: 450px;
+    background-image: url(../images/homeSlide.JPG);
+}
+
+/* Form Styles */
+
+.input-field input[type=text] {
+  color: #FFFFFF !important;
+}
+
+.input-field input[type=password] {
+  color: #FFFFFF !important;
+}
+
+[type="radio"]:checked + span:after,
+[type="radio"].with-gap:checked + span:before,
+[type="radio"].with-gap:checked + span:after {
+  border: 2px solid #E74C3C;
+}
+
+[type="radio"]:checked + span:after,
+[type="radio"].with-gap:checked + span:after {
+  background-color: #E74C3C;
+}
